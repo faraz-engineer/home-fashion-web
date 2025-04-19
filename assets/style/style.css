@@ -148,34 +148,34 @@ header {
     padding-top: 10px;
     transition: 0.3s ease-in-out;
 }
+
 .wave-link svg {
     width: 13px;
 }
+
 .wave-link:hover {
     color: #fff;
     fill: #fff;
 }
 
-.about-section {
-    background-image: url("../images/about.jpg");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 .portfolio-images-wrapper {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
-    padding: 60px 0;
+    padding: 60px 0 180px 0;
 }
+
 .portfolio-heading-wrapper {
     text-transform: uppercase;
 }
+
 .portfolio-heading {
     font-size: 32px;
     font-weight: 700;
     color: #fff;
+    text-transform: uppercase;
 }
+
 .portfolio-link {
     font-size: 18px;
     font-weight: 700;
@@ -183,11 +183,166 @@ header {
     text-decoration: none;
     border-bottom: 2px solid #efe6d5;
     letter-spacing: 2px;
+    text-transform: uppercase;
 }
+
 .portfolio-images {
     cursor: pointer;
     transition: 0.2s linear;
 }
+
 .portfolio-images:hover {
     opacity: 0.6;
+}
+
+.about-section {
+    position: relative;
+}
+.background-image {
+    background-image: url("../images/about.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    min-height: 70vh;
+}
+.gradient-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.9) 60%, rgba(0, 0, 0, 0) 100%);
+    pointer-events: none;
+}
+.about-wrapper {
+    z-index: 1111;
+    position: relative;
+    padding: 210px 48px;
+}
+
+.about-description-wrapper {
+    max-width: 58.665%;
+}
+
+.social-icons-link-wrapper {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.social-icons-link {
+    border-radius: 50%;
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+
+.social-icons {
+    width: 20px;
+    height: 20px;
+    transition: all 0.3s ease;
+}
+
+.common-paragraph {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.about-paragraph {
+    font-weight: 400;
+    color: #ffffffb3;
+}
+
+.about-description-wrapper {
+    gap: 25px;
+}
+
+.social-icons-link:hover {
+    background-color: black !important;
+}
+
+.social-icons-link:hover .social-icons {
+    fill: white !important;
+}
+.social-icons-link:hover .social-icons,
+.social-icons-link:hover .social-icons path,
+.social-icons-link:hover .social-icons g {
+    fill: white !important;
+}
+.services-wrapper {
+    padding: 70px 20px 180px 20px;
+}
+.services-content {
+    max-width: 24%;
+}
+.common-heading {
+    font-size: 26px;
+    font-weight: 700;
+    color: #fff;
+    margin: 0;
+}
+.explore-link {
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 600;
+    color: #efe6d5;
+    text-decoration: none;
+}
+.photo-shoot-content {
+    gap: 15px;
+}
+.services-content {
+    gap: 30px;
+}
+.service-image {
+    width: 395px;
+}
+.reviews-heading {
+    font-size: 24px;
+    font-weight: 500;
+    color: #fff;
+}
+.left-quotes-image {
+    position: relative;
+    top: -50px;
+    left: 30px;
+}
+.reviews-wrapper {
+    gap: 100px;
+    padding: 0 20px;
+}
+.reviews-image {
+    gap: 25px;
+}
+.reviews-image img {
+    width: 67px;
+}
+.reviews-content {
+    gap: 55px;
+}
+.review-name {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+}
+.reviews-title {
+    color: #ffffffb3;
+    font-size: 13px;
+    font-weight: 400;
+    margin: 0;
+}
+.reviews-image-content {
+    gap: 5px;
 }
