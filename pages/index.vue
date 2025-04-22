@@ -1,6 +1,6 @@
 <script setup>
 import {ref, onMounted} from 'vue'
-
+import LetsWorkTogether from "~/components/lets-work-together.vue";
 
 onMounted(() => {
 
@@ -263,7 +263,7 @@ onMounted(() => {
             <div class="reviews-wrapper d-flex  justify-content-between">
                 <div class="left-quotes-image">
                     <svg fill="#ffffff" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
-                         xmlns:xlink="http://www.w3.org/1999/xlink" width="35px" height="35px"
+                        width="35px" height="35px"
                          viewBox="0 0 23.517 23.517" xml:space="preserve"><g id="SVGRepo_bgCarrier" stroke-width="0"></g>
                         <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
                         <g id="SVGRepo_iconCarrier">
@@ -292,6 +292,7 @@ onMounted(() => {
             </div>
         </div>
     </section>
+    <lets-work-together />
 </template>
 
 

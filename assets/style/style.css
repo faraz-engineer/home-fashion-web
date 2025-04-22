@@ -330,6 +330,7 @@ header {
 }
 .reviews-content {
     gap: 55px;
+    padding-bottom: 180px;
 }
 .review-name {
     color: #fff;
@@ -345,4 +346,102 @@ header {
 }
 .reviews-image-content {
     gap: 5px;
+}
+.lets-work-together {
+    background-image: url("../images/work-togethor.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-position: center center;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+}
+.lets-work-together::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    background-image: linear-gradient(90deg, #050505 51%, #0505059E 100%) ;
+    z-index: 1;
+}
+.lets-work-together {
+    h1 {
+        z-index: 111;
+        position: relative;
+        padding-bottom: 15px;
+    }
+}
+.lets-work-together {
+    text-align: center;
+    a {
+        position: relative;
+        z-index: 111;
+    }
+}
+.footer-wrapper {
+    padding: 80px 0;
+    gap: 45px;
+}
+.footer-link {
+    text-transform: unset;
+}
+
+
+.professional-photographer-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 150px 20px 180px 20px;
+    gap: 70px;
+}
+.professional-photographer-heading {
+    padding: 0 10% 0 10%;
+}
+.photographer-image {
+    min-width: 510px;
+}
+.photographer-about-wrapper {
+    gap: 130px;
+    padding-bottom: 110px;
+}
+.about-link {
+    width: 155px;
+    padding-top: 20px;
+}
+.awards-list-wrapper {
+    background-color: #111112;
+    padding: 70px;
+}
+.awards-list-wrapper {
+    gap: 165px;
+}
+.about-portfolio-image {
+    padding: 0 20px;
+}
+
+.work-experience-wrapper {
+    padding: 180px 20px 150px 20px;
+    gap: 135px;
+}
+.magazine-content {
+    padding: 40px;
+    background-color: #111112;
+    min-width: 510px;
+}
+.magazine-heading {
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    padding-bottom: 20px;
+}
+.border-line {
+    border: 1px solid #FFFFFFB3;
+    margin: 50px 0;
 }
