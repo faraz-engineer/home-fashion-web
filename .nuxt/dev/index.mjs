@@ -2445,13 +2445,16 @@ const sources$1 = [
                 "loc": "/about"
             },
             {
+                "loc": "/contact"
+            },
+            {
                 "loc": "/"
             },
             {
-                "loc": "/investors"
+                "loc": "/portfolio"
             },
             {
-                "loc": "/portfolio"
+                "loc": "/services"
             }
         ],
         "sourceType": "app"

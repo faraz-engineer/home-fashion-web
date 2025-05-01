@@ -1,4 +1,4 @@
-/<script setup>
+<script setup>
 import {ref} from 'vue'
 
 
@@ -25,8 +25,8 @@ import {ref} from 'vue'
                                 <a class="navbar-links" href="/">Home</a>
                                 <a class="navbar-links" href="/about">About</a>
                                 <a class="navbar-links" href="/portfolio">Portfolio</a>
-                                <a class="navbar-links" href="#">Services</a>
-                                <a class="navbar-links" href="#">Contact</a>
+                                <a class="navbar-links" href="/services">Services</a>
+                                <a class="navbar-links" href="/contact">Contact</a>
                             </li>
                         </ul>
                     </div>

@@ -13,11 +13,17 @@ body {
     color: black;
 }
 
-a, p, h4, h5, h6 {
+a,
+p,
+h4,
+h5,
+h6 {
     font-family: 'Manrope';
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     font-family: 'Fahkwang';
 }
 
@@ -198,6 +204,7 @@ header {
 .about-section {
     position: relative;
 }
+
 .background-image {
     background-image: url("../images/about.jpg");
     background-position: center center;
@@ -209,6 +216,7 @@ header {
     right: 0;
     min-height: 70vh;
 }
+
 .gradient-overlay {
     position: absolute;
     bottom: 0;
@@ -218,6 +226,7 @@ header {
     background: linear-gradient(to top, rgba(0, 0, 0, 0.9) 60%, rgba(0, 0, 0, 0) 100%);
     pointer-events: none;
 }
+
 .about-wrapper {
     z-index: 1111;
     position: relative;
@@ -275,23 +284,28 @@ header {
 .social-icons-link:hover .social-icons {
     fill: white !important;
 }
+
 .social-icons-link:hover .social-icons,
 .social-icons-link:hover .social-icons path,
 .social-icons-link:hover .social-icons g {
     fill: white !important;
 }
+
 .services-wrapper {
     padding: 70px 20px 180px 20px;
 }
+
 .services-content {
     max-width: 24%;
 }
+
 .common-heading {
     font-size: 26px;
     font-weight: 700;
     color: #fff;
     margin: 0;
 }
+
 .explore-link {
     text-transform: uppercase;
     font-size: 13px;
@@ -299,54 +313,67 @@ header {
     color: #efe6d5;
     text-decoration: none;
 }
+
 .photo-shoot-content {
     gap: 15px;
 }
+
 .services-content {
     gap: 30px;
 }
+
 .service-image {
     width: 395px;
 }
+
 .reviews-heading {
     font-size: 24px;
     font-weight: 500;
     color: #fff;
 }
+
 .left-quotes-image {
     position: relative;
     top: -50px;
     left: 30px;
 }
+
 .reviews-wrapper {
     gap: 100px;
     padding: 0 20px;
 }
+
 .reviews-image {
     gap: 25px;
 }
+
 .reviews-image img {
     width: 67px;
 }
+
 .reviews-content {
     gap: 55px;
     padding-bottom: 180px;
 }
+
 .review-name {
     color: #fff;
     font-size: 16px;
     font-weight: 400;
     margin: 0;
 }
+
 .reviews-title {
     color: #ffffffb3;
     font-size: 13px;
     font-weight: 400;
     margin: 0;
 }
+
 .reviews-image-content {
     gap: 5px;
 }
+
 .lets-work-together {
     background-image: url("../images/work-togethor.png");
     background-repeat: no-repeat;
@@ -359,6 +386,7 @@ header {
     justify-content: center;
     height: 400px;
 }
+
 .lets-work-together::before {
     content: '';
     position: absolute;
@@ -367,9 +395,10 @@ header {
     width: 100%;
     height: 100%;
     background-color: transparent;
-    background-image: linear-gradient(90deg, #050505 51%, #0505059E 100%) ;
+    background-image: linear-gradient(90deg, #050505 51%, #0505059E 100%);
     z-index: 1;
 }
+
 .lets-work-together {
     h1 {
         z-index: 111;
@@ -377,17 +406,21 @@ header {
         padding-bottom: 15px;
     }
 }
+
 .lets-work-together {
     text-align: center;
+
     a {
         position: relative;
         z-index: 111;
     }
 }
+
 .footer-wrapper {
     padding: 80px 0;
     gap: 45px;
 }
+
 .footer-link {
     text-transform: unset;
 }
@@ -401,27 +434,34 @@ header {
     padding: 150px 20px 180px 20px;
     gap: 70px;
 }
+
 .professional-photographer-heading {
     padding: 0 10% 0 10%;
 }
+
 .photographer-image {
     min-width: 510px;
 }
+
 .photographer-about-wrapper {
     gap: 130px;
     padding-bottom: 110px;
 }
+
 .about-link {
     width: 155px;
     padding-top: 20px;
 }
+
 .awards-list-wrapper {
     background-color: #111112;
     padding: 70px;
 }
+
 .awards-list-wrapper {
     gap: 165px;
 }
+
 .about-portfolio-image {
     padding: 0 20px;
 }
@@ -430,17 +470,20 @@ header {
     padding: 180px 20px 150px 20px;
     gap: 135px;
 }
+
 .magazine-content {
     padding: 40px;
     background-color: #111112;
     min-width: 510px;
 }
+
 .magazine-heading {
     font-size: 20px;
     font-weight: 700;
     color: #fff;
     padding-bottom: 20px;
 }
+
 .border-line {
     border: 1px solid #FFFFFFB3;
     margin: 50px 0;
@@ -449,9 +492,142 @@ header {
 .portfolio-wrapper {
     padding: 150px 20px 100px 20px;
 }
+
 .portfolio-paragraph {
     max-width: 46%;
 }
+
 .portfolio-page-wrapper {
     padding: 0 20px;
+}
+
+.services-paragraph {
+    max-width: 48%;
+}
+
+.services-categories-wrapper {
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.bold-service-category {
+    padding: 30px;
+    background-color: #111112;
+    width: 25%;
+}
+
+.service-category {
+    width: 25%;
+    padding: 30px;
+}
+
+.category-description {
+    max-width: 45%;
+}
+
+.categories-description-wrapper {
+    gap: 120px;
+    padding: 0 20px;
+    padding-bottom: 100px;
+}
+
+.services-categories-description-wrapper {
+    padding-top: 180px;
+}
+
+.contact-wrapper {
+    display: flex;
+    align-items: center;
+    padding: 180px 20px 100px 20px;
+    justify-content: space-between;
+
+}
+
+.contact-heading {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 56px;
+    color: #fff;
+}
+
+.mail-icon {
+    width: 18px;
+}
+
+.contact-content {
+    max-width: 44%;
+}
+
+form {
+    margin: auto;
+    max-width: 515px;
+    padding: 50px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+input,
+textarea {
+    width: 100%;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 20px;
+    margin-bottom: 30px !important;
+    color: #ffffffb3;
+    font-size: 16px;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: #ffffffb3;
+}
+
+input:focus,
+textarea:focus {
+    outline: none;
+    border-bottom: 1px solid #f5f5f5;
+}
+
+.contact-form-wrapper {
+    background-color: #111112;
+}
+.faq-wrapper {
+    padding: 80px 20px 0 20px;
+}
+.faq-content {
+    background-color: #111112;
+    width: 510px;
+    cursor: pointer;
+}
+.faq-question {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.faq-image {
+    width: 14px;
+}
+.faq-question-link {
+    position: relative;
+}
+.faq-paragraph {
+    padding: 20px;
+}
+.faq-heading {
+    padding: 0 20px;
+    color: #fff;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 56px;
+    text-transform: uppercase;
 }
