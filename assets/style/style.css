@@ -446,3 +446,12 @@ header {
     margin: 50px 0;
 }
 
+.portfolio-wrapper {
+    padding: 150px 20px 100px 20px;
+}
+.portfolio-paragraph {
+    max-width: 46%;
+}
+.portfolio-page-wrapper {
+    padding: 0 20px;
+}

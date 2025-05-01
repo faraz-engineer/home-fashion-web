@@ -24,7 +24,7 @@ import {ref} from 'vue'
                             <li>
                                 <a class="navbar-links" href="/">Home</a>
                                 <a class="navbar-links" href="/about">About</a>
-                                <a class="navbar-links" href="#">Portfolio</a>
+                                <a class="navbar-links" href="/portfolio">Portfolio</a>
                                 <a class="navbar-links" href="#">Services</a>
                                 <a class="navbar-links" href="#">Contact</a>
                             </li>
